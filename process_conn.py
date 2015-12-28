@@ -29,6 +29,6 @@ plt.plot(samples_x, samples_y, color='r')
 ref_points = perdelta(datetime(2015, 12, 20, 18, 0, 0), datetime(2015, 12, 21, 0, 0, 0), timedelta(minutes=30))
 for point in ref_points:
     plt.axvline(point, color='k', linestyle='--')
-plt.title('connections on gateway')
+plt.title('Connection count on gateway\n 18:00 - 24:00, Dec. 20, 2015')
 plt.show()
 
